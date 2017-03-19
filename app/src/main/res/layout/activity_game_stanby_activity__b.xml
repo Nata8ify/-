@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sleeplesstofu.quartierlatin.trag.trag.extra.GameStanbyActivity_B"
+    android:background="@drawable/bacmground">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|center_horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="โหมดไร้ปราณี"
+        android:textSize="36dp"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:textColor="#fff"
+        android:id="@+id/txt_stanby_mode"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text=""
+        android:gravity="center_horizontal"
+        android:id="@+id/txt_stand_by_timer"
+        android:padding="16dp"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="เตรียมพร้อม..."
+        android:textSize="26dp"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:id="@+id/txt_plz_wait"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="โหมดนี้จะไม่หยุดสร้างตัวเลข การอยู่นานที่สุดเป็นสิ่งใช้วัดความสามารถผู้เล่นในโหมดนี้"
+        android:textSize="10dp"
+        android:padding="16dp"
+        android:id="@+id/txt_plz_description"
+        android:textColor="#fff"/>
+</LinearLayout>
+</RelativeLayout>

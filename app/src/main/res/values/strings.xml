@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">แตะแตะแตะ</string>
+    <string name="txt_acheivement">รางวัลความสำเร็จ</string>
+    <string name="txt_btn_exchange_t">เปลี่ยนเป็น T</string>
+    <string name="txt_btn_exchange_p">เปลี่ยนเป็น P</string>
+</resources>

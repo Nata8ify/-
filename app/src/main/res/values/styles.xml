@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainButtStyle">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="WhiteBachground">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:background">#fff</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="WhiteTextAndTransparentBackground">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">45dp</item>
+        <item name="android:background">#0fff</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="WhiteTextAndTransparentBackground_B">
+        <item name="android:textSize">45dp</item>
+        <item name="android:background">#0fff</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="model_a">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="model_b_credit">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="bg_model_a_trans">
+        <item name="android:background">#0fff</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    // No Transition
+    <style name="noAnimTheme" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

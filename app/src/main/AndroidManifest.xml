@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sleeplesstofu.quartierlatin.trag"
+    android:versionCode="3"
+    android:versionName="1.1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/trag_ico"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.sleeplesstofu.quartierlatin.trag.Play_A_AcradeMode">
+            <intent-filter>
+                <action android:name="com.example.quartierlatin.trag.Play_A_AcradeMode" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sleeplesstofu.quartierlatin.trag.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sleeplesstofu.quartierlatin.trag.SelectModeActivity" >
+            <intent-filter>
+                <action android:name="com.example.quartierlatin.trag.SelectModeActivity" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sleeplesstofu.quartierlatin.trag.Play_B_NoneStopMode" />
+        <activity android:name="com.sleeplesstofu.quartierlatin.trag.GameResultActivity" />
+        <activity android:name="com.sleeplesstofu.quartierlatin.trag.LeaderBoardActivity" />
+        <activity android:name="com.sleeplesstofu.quartierlatin.trag.SettingActivity" />
+        <activity android:name="com.sleeplesstofu.quartierlatin.trag.trag.extra.GameStanbyActivity_A" />
+        <activity android:name="com.sleeplesstofu.quartierlatin.trag.trag.extra.GameStanbyActivity_B" />
+        <activity android:name="com.sleeplesstofu.quartierlatin.trag.trag.extra.CreditActivity"></activity>
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+</manifest>

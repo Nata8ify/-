@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacmground"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<TextView-->
+        <!--android:id="@+id/txt_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="42dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="TAP BUSTER"-->
+        <!--android:textSize="46dp" />-->
+
+        <Button
+            android:id="@+id/btnPlay_time_limit"
+            style="@style/WhiteTextAndTransparentBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="gameStart"
+            android:text="โหมดเมตตา" />
+
+        <Button
+            android:id="@+id/btnPlay_none_stop"
+            style="@style/WhiteTextAndTransparentBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="โหมดไร้ปราณี" />
+
+        <Button
+            android:id="@+id/btnPlay_clue_mode"
+            style="@style/WhiteTextAndTransparentBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="โหมดทารุณ"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnPlay_back"
+            style="@style/WhiteTextAndTransparentBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="goBack"
+            android:text="กลับ" />
+    </LinearLayout>
+</RelativeLayout>

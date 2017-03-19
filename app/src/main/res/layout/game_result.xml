@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacmground"
+    android:orientation="vertical"
+    android:padding="26dp">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        style="@style/WhiteTextAndTransparentBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="ผลลัพธ์ในเกมนี้"
+            android:textSize="44dp"
+            style="@style/WhiteTextAndTransparentBackground"
+            android:id="@+id/txt_result"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:text="คะแนนที่ทำได้: "
+            android:textSize="36dp"
+            style="@style/WhiteTextAndTransparentBackground"
+            android:id="@+id/txt_score_earned"/>
+
+        <TextView
+            android:id="@+id/txt_show_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30dp"
+            android:paddingLeft="20dp"
+            style="@style/WhiteTextAndTransparentBackground_B"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:text="ระดับที่ทำได้: "
+            android:textSize="36dp"
+            style="@style/WhiteTextAndTransparentBackground"
+            android:id="@+id/txt_level_earned"/>
+
+        <TextView
+            android:id="@+id/txt_show_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24dp"
+            android:paddingLeft="20dp"
+            style="@style/WhiteTextAndTransparentBackground_B"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/model_a"
+            android:layout_marginTop="36dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="doFinish"
+            android:padding="16dp"
+            android:text="กลับ "
+            android:textSize="26dp" />
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>
